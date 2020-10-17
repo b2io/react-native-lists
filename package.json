@@ -1,0 +1,42 @@
+{
+  "name": "react-native-lists",
+  "version": "1.0.0",
+  "description": "React Native OrderedList and UnorderedList components for web-like behavior",
+  "main": "index.js",
+  "homepage": "https://github.com/b2io/react-native-lists",
+  "bugs": {
+    "url": "https://github.com/b2io/react-native-lists/issues",
+    "email": "rdunkle@base2.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b2io/react-native-lists.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "ordered-list",
+    "unordered-list",
+    "ol",
+    "ul",
+    "bullet list",
+    "numbered list"
+  ],
+  "author": "Base Two <rdunkle@base2.io> (https://www.base2.io/)",
+  "license": "ISC",
+  "scripts": {
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios",
+    "start": "npx react-native start",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^2.0.0",
+    "eslint": "^7.11.0",
+    "jest": "^26.4.2"
+  }
+}
